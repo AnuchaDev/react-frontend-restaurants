@@ -1,0 +1,60 @@
+.Img-place{
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: context-menu;
+}
+
+.card{
+    margin: 10px;
+    height: fit-content;
+}
+
+.Name-place-card{
+    font-size: 25px;
+    cursor: context-menu;
+}
+
+.Rating{
+    color: #134B8A;
+}
+
+.Img-preview_1{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Img-preview_3{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Img-preview>img{
+    width: 8.7vw;
+    height: 8.7vw;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonialImages{
+    height: 60vw;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+@media (max-width:576px){
+    .Name-place-card{
+        font-size: 20px;
+    }
+
+    .Img-place{
+        width: 95%;
+        height: 20vw;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 10px;
+    }
+}

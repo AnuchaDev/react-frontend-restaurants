@@ -1,0 +1,52 @@
+.bg-color {
+  background-color: #c4d3e9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.img-profile {
+  height: 25vw;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 20px;
+  height: fit-content;
+  margin: 20px 0px;
+}
+
+.Rating {
+  color: #134b8a;
+}
+
+.list-date {
+  margin: 0px;
+}
+
+.img-preview img {
+  padding: 0px 20px;
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .img-preview img {
+    padding: 0px 20px;
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+  }
+
+  .img-profile {
+    height: 40vw;
+    object-fit: cover;
+  }
+}
+
+.btn-button{
+    margin-left: 20px;
+    background-color: #134b8a;
+    color: white;
+}
